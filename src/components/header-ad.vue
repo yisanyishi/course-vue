@@ -7,7 +7,7 @@
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 /* @import url(../assets/base.css/font/iconfont.css); */
   .header-sales-promotion {
     position: relative;
