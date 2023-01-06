@@ -4,7 +4,8 @@ import VueRouter from 'vue-router'
 import router from './router/index.js'
 
 //全局样式
-import './assets/base.css/font/iconfont.css'
+import './assets/font/iconfont.css'
+import './assets/base.css'
 
 Vue.use(VueRouter)
 
