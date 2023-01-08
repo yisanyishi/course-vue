@@ -31,7 +31,7 @@
 </template>
 
 <script>
-  import { getCarouselData } from '../axios/index.js'
+  import { getCarouselData } from '@axios/index.js'
   export default {
     name: 'carousel1',
 

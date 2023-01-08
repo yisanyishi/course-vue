@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import { getInfoPageData } from '../axios/index.js'
+import { getInfoPageData } from '@axios/index.js'
 
 export default {
   name: 'infoPack',

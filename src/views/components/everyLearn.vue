@@ -21,7 +21,7 @@
         <div class="video">
           <img :src="list.src" class="cover">
           <div class="mask">
-            <img src="../assets/images/subSrc.png" alt="" class="play">
+            <img src="@/assets/images/subSrc.png" alt="" class="play">
             <div class="subcount">
               {{ list.num }}
             </div>
@@ -41,7 +41,7 @@
 </template>
 
 <script>
-import { getEveryCourseData } from '../axios/index.js'
+import { getEveryCourseData } from '@axios/index.js'
 
 export default {
   name: 'infoPack',

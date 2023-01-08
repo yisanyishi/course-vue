@@ -86,7 +86,7 @@
 </template>
 
 <script>
-import { getFooterData } from '../axios/index.js'
+import { getFooterData } from '@axios/index.js'
 
 export default {
   name: 'footerEl',

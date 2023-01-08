@@ -10,14 +10,14 @@
       </div>
       <div class="headerRight">
         <div class="customer-service">
-          <img src="../assets/images/trainInfro.png" alt="" class="service">
+          <img src="@/assets/images/trainInfro.png" alt="" class="service">
           <div class="service-title">
             领取面试资料
           </div>
         </div>
         <div class="code">
           <span class="scan">微信扫码</span>
-          <img src="../assets/images/contact-qrcode.png" alt="" class="code-img">
+          <img src="@/assets/images/contact-qrcode.png" alt="" class="code-img">
         </div>
       </div>
     </div>
@@ -61,7 +61,7 @@
 </template>
 
 <script>
-import { getBootcampLeftData } from '../axios/index.js'
+import { getBootcampLeftData } from '@axios/index.js'
 
 export default {
   name: 'bootcampLeft',

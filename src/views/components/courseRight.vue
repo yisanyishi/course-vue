@@ -7,7 +7,7 @@
         <div class="right-title">
           {{ item.title }}
         </div>
-        <img src="../assets/images/champion.png" alt="" class="bedge">
+        <img src="@/assets/images/champion.png" alt="" class="bedge">
       </div>
       <div class="order">
         <div 
@@ -34,7 +34,7 @@
 </template>
 
 <script>
-import { getCourseRightData } from '../axios/index.js'
+import { getCourseRightData } from '@axios/index.js'
 
 export default {
   name: 'infoPack',

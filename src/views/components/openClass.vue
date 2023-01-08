@@ -38,7 +38,7 @@
 </template>
 
 <script>
-import { getOpenClassData } from '../axios/index.js'
+import { getOpenClassData } from '@axios/index.js'
   export default{
     name: 'openClass',
 

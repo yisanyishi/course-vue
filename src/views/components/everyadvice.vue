@@ -41,7 +41,7 @@
 </template>
 
 <script>
-import { getEveryCourseData } from '../axios/index.js'
+import { getEveryCourseData } from '@axios/index.js'
 
 export default {
   name: 'infoPack',

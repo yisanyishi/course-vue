@@ -33,7 +33,7 @@
             {{ item.infoNum }}
           </div>
           <div class="course-price">
-            <img src="../assets/images/newsPerson.png" alt="" class="price-img">
+            <img src="@/assets/images/newsPerson.png" alt="" class="price-img">
             <div class="newPrice">
               {{ item.newPrice }}
             </div>
@@ -48,7 +48,7 @@
 </template>
 
 <script>
-import { getcourseLeftData } from '../axios/index.js'
+import { getcourseLeftData } from '@axios/index.js'
 
 export default {
   name: 'infoPack',

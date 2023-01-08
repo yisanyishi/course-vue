@@ -3,7 +3,7 @@
     <div class="suggest-header">
       <div class="title">为你推荐</div>
       <div class="modify-like-btn">
-        <img src="../assets/images/advice.png" alt="" class="modify-icon">
+        <img src="@/assets/images/advice.png" alt="" class="modify-icon">
         <div class="modify-text">
           设置学习偏好
         </div>
@@ -35,7 +35,7 @@
             {{ item.count }}
           </div>
           <div class="price">
-            <img src="../assets/images/adviceprice.png" alt="" class="price-img">
+            <img src="@/assets/images/adviceprice.png" alt="" class="price-img">
             <div class="newprice">
               {{ item.discountPrice }}
             </div>
@@ -50,7 +50,7 @@
 </template>
 
 <script>
-import { getSuggestData } from '../axios/index.js'
+import { getSuggestData } from '@axios/index.js'
 
 export default {
   name: 'suggest',

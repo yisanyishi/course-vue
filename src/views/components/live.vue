@@ -19,7 +19,7 @@
           <div class="preview">预告</div>
           <div class="player-wrapper" :class="opacitys === index ? 'opacitys' : ''">
             <div class="player">
-              <img src="../assets/images/subSrc.png" alt="" class="icon-bo">
+              <img src="@/assets/images/subSrc.png" alt="" class="icon-bo">
               <!-- <span  class="iconfont icon-bofangsanjiaoxing icon-bo"></span> -->
             </div>
           </div>
@@ -34,7 +34,7 @@
 </template>
 
 <script>
-import { getLiveData } from '../axios/index.js'
+import { getLiveData } from '@axios/index.js'
   export default{
     name: 'live',
 

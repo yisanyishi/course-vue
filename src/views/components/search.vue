@@ -31,7 +31,7 @@
 </template>
 
 <script>
-  import { getSearch, getSearchLog } from '../axios/index.js'
+  import { getSearch, getSearchLog } from '@axios/index.js'
 
   export default {
     name: 'Search',

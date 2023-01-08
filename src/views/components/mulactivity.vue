@@ -16,7 +16,7 @@
 </template>
 
 <script>
-  import { getMulactivityData } from '../axios/index.js'
+  import { getMulactivityData } from '@axios/index.js'
   export default {
     name: 'mulactivity',
 

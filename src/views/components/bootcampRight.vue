@@ -33,7 +33,7 @@
 </template>
 
 <script>
-import { getBootcampRightData } from '../axios/index.js'
+import { getBootcampRightData } from '@axios/index.js'
 
 export default {
   name: 'bootcampRight',

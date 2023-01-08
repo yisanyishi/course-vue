@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import { getRightMenuData } from '../axios/index.js'
+import { getRightMenuData } from '@axios/index.js'
 
 export default {
   name: 'infoPack',

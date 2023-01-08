@@ -647,42 +647,42 @@ const everyCourseData = {
   everyLearn: [{
     link:'https://time.geekbang.org/dailylesson/detail/100028401',
     src:'https://static001.geekbang.org/resource/image/6e/73/6e55a77c3a8c67657b09105b7a94f273.jpg?x-oss-process=image/resize,w_253,h_143/format,webp',
-    subSrc: '../assets/images/subSrc.png',
+    subSrc: '../../assets/images/subSrc.png',
     num: '7.9w次播放',
     problem: '为什么SQL语句使用了索引，但却还是慢查询？',
     author: '林晓斌  | 腾讯云'
   },{
     link:'https://time.geekbang.org/dailylesson/detail/100044011',
     src:'https://static001.geekbang.org/resource/image/a9/dd/a985b0f7106d1b24e9da872e69dd5fdd.png?x-oss-process=image/resize,w_253,h_143/format,webp',
-    subSrc: '../assets/images/subSrc.png',
+    subSrc: '../../assets/images/subSrc.png',
     num: '4.3w次播放',
     problem: '如何搭建一款高性能、高可用的MySQL架构？',
     author: '颜群  | 阿里云云栖认证专家'
   },{
     link:'https://time.geekbang.org/dailylesson/detail/100044011',
     src:'https://static001.geekbang.org/resource/image/5b/66/5b58cb5b81412d5042dbca9ff7b09966.png?x-oss-process=image/resize,w_253,h_143/format,webp',
-    subSrc: '../assets/images/subSrc.png',
+    subSrc: '../../assets/images/subSrc.png',
     num: '2.8w次播放',
     problem: '如何使Python程序快如闪电，提速30%?',
     author: 'Martin | Heinz（平川译）'
   },{
     link:'https://time.geekbang.org/dailylesson/detail/100044011',
     src:'https://static001.geekbang.org/resource/image/38/3b/388ee11584c5b949fef2e777d891203b.png?x-oss-process=image/resize,w_253,h_143/format,webp',
-    subSrc: '../assets/images/subSrc.png',
+    subSrc: '../../assets/images/subSrc.png',
     num: '3.9w次播放',
     problem: '如何快速且深入地学习一门新技术？',
     author: '颜群  | 阿里云云栖认证专家'
   },{
     link:'https://time.geekbang.org/dailylesson/detail/100044011',
     src:'https://static001.geekbang.org/resource/image/60/39/6092153111008d71cb6b73a32fb7f539.jpg?x-oss-process=image/resize,w_253,h_143/format,webp',
-    subSrc: '../assets/images/subSrc.png',
+    subSrc: '../../assets/images/subSrc.png',
     num: '2.6w次播放',
     problem: '如何优雅地计算斐波那契数列？',
     author: 'winter  | 前手机淘宝前端负责人'
   },{
     link:'https://time.geekbang.org/dailylesson/detail/100044011',
     src:'https://static001.geekbang.org/resource/image/da/4c/da6d20a4cda70a2c2776f47d1989724c.png?x-oss-process=image/resize,w_253,h_143/format,webp',
-    subSrc: '../assets/images/subSrc.png',
+    subSrc: '../../assets/images/subSrc.png',
     num: '2.8w次播放',
     problem: '为什么说Java仍将是未来的主导语言?',
     author: 'Rishav | Kaundal'

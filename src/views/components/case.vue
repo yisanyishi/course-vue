@@ -56,7 +56,7 @@
 </template>
 
 <script>
-import { getCaseData } from '../axios/index.js'
+import { getCaseData } from '@axios/index.js'
 
 export default {
   name: 'case',

@@ -192,7 +192,7 @@
 </template>
 
 <script>
-  import { getHeaderAd, getHeaderInfo, getMenuListData} from '../axios/index.js'
+  import { getHeaderAd, getHeaderInfo, getMenuListData} from '@axios/index.js'
 
  
   export default {
@@ -268,24 +268,24 @@
     },
 
     components: {
-      'Search': () => import('../components/search.vue'),
-      // 'carousel': () => import('../components/carousel.vue'),
-      'carousel1': () => import('../components/carousel1.vue'),
-      'carousel2': () => import('../components/carousel2.vue'),
-      'live': () => import('../components/live.vue'),
-      'infoPack': () => import('../components/infoPack.vue'),
-      'courseLeft': () => import('../components/courseLeft.vue'),
-      'courseRight': () => import('../components/courseRight.vue'),
-      'bootcampLeft': () => import('../components/bootcampLeft.vue'),
-      'bootcampRight': () => import('../components/bootcampRight.vue'),
-      'everyLearn': () => import('../components/everyLearn.vue'),
-      'everyadvice': () => import('../components/everyadvice.vue'),
-      'case': () => import('../components/case.vue'),
-      'openClass': () => import('../components/openClass.vue'),
-      'suggest': () => import('../components/suggest.vue'),
-      'mulactivity': () => import('../components/mulactivity.vue'),
-      'footerEl': () => import('../components/footerEl.vue'),
-      'rightMenu': () => import('../components/rightMenu.vue'),
+      'Search': () => import('./components/search.vue'),
+      // 'carousel': () => import('./components/carousel.vue'),
+      'carousel1': () => import('@/components/carousel1.vue'),
+      'carousel2': () => import('@/components/carousel2.vue'),
+      'live': () => import('./components/live.vue'),
+      'infoPack': () => import('./components/infoPack.vue'),
+      'courseLeft': () => import('./components/courseLeft.vue'),
+      'courseRight': () => import('./components/courseRight.vue'),
+      'bootcampLeft': () => import('./components/bootcampLeft.vue'),
+      'bootcampRight': () => import('./components/bootcampRight.vue'),
+      'everyLearn': () => import('./components/everyLearn.vue'),
+      'everyadvice': () => import('./components/everyadvice.vue'),
+      'case': () => import('./components/case.vue'),
+      'openClass': () => import('./components/openClass.vue'),
+      'suggest': () => import('./components/suggest.vue'),
+      'mulactivity': () => import('./components/mulactivity.vue'),
+      'footerEl': () => import('./components/footerEl.vue'),
+      'rightMenu': () => import('./components/rightMenu.vue'),
     }
   }
 </script>
