@@ -27,3 +27,53 @@ export function getCarouselData () {
 export function getCarousel2Data () {
   return $http.get ('/api/carousel2Data')
 }
+
+export function getLiveData () {
+  return $http.get ('/api/liveData')
+}
+
+export function getInfoPageData () {
+  return $http.get ('/api/infoPageData')
+}
+export function getCourseRightData () {
+  return $http.get ('/api/courseRightData')
+}
+export function getcourseLeftData () {
+  return $http.get ('/api/courseLeftData')
+}
+
+export function getBootcampRightData () {
+  return $http.get ('/api/bootcampRightData')
+}
+
+export function getBootcampLeftData () {
+  return $http.get ('/api/bootcampLeftData')
+}
+
+export function getEveryCourseData () {
+  return $http.get ('/api/everyCourseData')
+}
+
+export function getCaseData () {
+  return $http.get ('/api/caseData')
+}
+
+export function getOpenClassData () {
+  return $http.get ('/api/openClassData')
+}
+
+export function getSuggestData () {
+  return $http.get ('/api/suggestData')
+}
+
+export function getMulactivityData () {
+  return $http.get ('/api/mulactivityData')
+}
+
+export function getFooterData () {
+  return $http.get ('/api/footerData')
+}
+
+export function getRightMenuData () {
+  return $http.get ('/api/rightMenuData')
+}

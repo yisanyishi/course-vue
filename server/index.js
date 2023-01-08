@@ -5,7 +5,28 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended : true}))
 
-var { headAdData, headerInfoData, searchData,  searchlogData, menuListData, carouselData, carousel2Data } = require('./mock/index.js');
+var { 
+  headAdData, 
+  headerInfoData, 
+  searchData,  
+  searchlogData, 
+  menuListData, 
+  carouselData, 
+  carousel2Data, 
+  liveData, 
+  infoPageData,
+  courseLeftData,
+  courseRightData,
+  bootcampLeftData,
+  bootcampRightData,
+  everyCourseData,
+  caseData,
+  openClassData,
+  suggestData,
+  mulactivityData,
+  footerData,
+  rightMenuData,
+} = require('./mock/index.js');
 const CODE = {
   SUCCESS: 0,
 }
@@ -89,6 +110,136 @@ app.get('/api/carousel2Data',(req, res) => {
     code: CODE.SUCCESS,
     msg: '获取成功',
     data: carousel2Data 
+  });
+  res.send(str)
+});
+
+app.get('/api/liveData',(req, res) => {
+  res.setHeader('Access-Control-Allow-Origin',"*");
+  var str = JSON.stringify({
+    code: CODE.SUCCESS,
+    msg: '获取成功',
+    data: liveData 
+  });
+  res.send(str)
+});
+
+app.get('/api/infoPageData',(req, res) => {
+  res.setHeader('Access-Control-Allow-Origin',"*");
+  var str = JSON.stringify({
+    code: CODE.SUCCESS,
+    msg: '获取成功',
+    data: infoPageData 
+  });
+  res.send(str)
+});
+
+app.get('/api/courseLeftData',(req, res) => {
+  res.setHeader('Access-Control-Allow-Origin',"*");
+  var str = JSON.stringify({
+    code: CODE.SUCCESS,
+    msg: '获取成功',
+    data: courseLeftData 
+  });
+  res.send(str)
+});
+
+app.get('/api/courseRightData',(req, res) => {
+  res.setHeader('Access-Control-Allow-Origin',"*");
+  var str = JSON.stringify({
+    code: CODE.SUCCESS,
+    msg: '获取成功',
+    data: courseRightData 
+  });
+  res.send(str)
+});
+
+app.get('/api/bootcampLeftData',(req, res) => {
+    res.setHeader('Access-Control-Allow-Origin',"*");
+    var str = JSON.stringify({
+      code: CODE.SUCCESS,
+      msg: '获取成功',
+      data: bootcampLeftData 
+    });
+    res.send(str)
+  });
+
+app.get('/api/bootcampRightData',(req, res) => {
+  res.setHeader('Access-Control-Allow-Origin',"*");
+  var str = JSON.stringify({
+    code: CODE.SUCCESS,
+    msg: '获取成功',
+    data:  bootcampRightData 
+  });
+  res.send(str)
+});
+
+app.get('/api/everyCourseData',(req, res) => {
+  res.setHeader('Access-Control-Allow-Origin',"*");
+  var str = JSON.stringify({
+    code: CODE.SUCCESS,
+    msg: '获取成功',
+    data: everyCourseData 
+  });
+  res.send(str)
+});
+
+app.get('/api/caseData',(req, res) => {
+  res.setHeader('Access-Control-Allow-Origin',"*");
+  var str = JSON.stringify({
+    code: CODE.SUCCESS,
+    msg: '获取成功',
+    data: caseData
+  });
+  res.send(str)
+});
+
+app.get('/api/openClassData',(req, res) => {
+  res.setHeader('Access-Control-Allow-Origin',"*");
+  var str = JSON.stringify({
+    code: CODE.SUCCESS,
+    msg: '获取成功',
+    data: openClassData
+  });
+  res.send(str)
+});
+
+app.get('/api/suggestData',(req, res) => {
+  res.setHeader('Access-Control-Allow-Origin',"*");
+  var str = JSON.stringify({
+    code: CODE.SUCCESS,
+    msg: '获取成功',
+    data: suggestData
+  });
+  res.send(str)
+});
+
+app.get('/api/mulactivityData',(req, res) => {
+  res.setHeader('Access-Control-Allow-Origin',"*");
+  var str = JSON.stringify({
+    code: CODE.SUCCESS,
+    msg: '获取成功',
+    data: mulactivityData
+  });
+  res.send(str)
+});
+
+app.get('/api/footerData',(req, res) => {
+  res.setHeader('Access-Control-Allow-Origin',"*");
+  var str = JSON.stringify({
+    code: CODE.SUCCESS,
+    msg: '获取成功',
+    data: footerData
+  });
+  res.send(str)
+});
+
+app.get('/api/rightMenuData',(req, res) => {
+  res.setHeader('Access-Control-Allow-Origin',"*");
+  var str = JSON.stringify({
+    code: CODE.SUCCESS,
+    msg: '获取成功',
+    data: rightMenuData
   });
   res.send(str)
 });

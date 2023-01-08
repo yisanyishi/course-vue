@@ -33,7 +33,7 @@
 <script>
   import { getCarouselData } from '../axios/index.js'
   export default {
-    name: 'carousel',
+    name: 'carousel1',
 
     data(){
       return {

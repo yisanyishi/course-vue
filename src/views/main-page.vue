@@ -117,7 +117,6 @@
           </div>
         </div>
       </div>
-
       <div class="learnPath">
         <div class="all-learn">
           <div class="all-title">
@@ -133,15 +132,62 @@
       </div>
       <!-- 直播 -->
       <div class="core-block">
-        <live></live>
-        <infoPack></infoPack>
+        <div class="module">
+          <live></live>
+          <infoPack></infoPack>
+        </div>
       </div>
-
+      <!-- 课程 -->
       <div class="core-block">
-        
+        <div class="module">
+          <courseLeft></courseLeft>
+          <courseRight></courseRight>
+        </div>
       </div>
+      <!-- 训练营 -->
+      <div class="core-block">
+        <div class="module">
+          <bootcampLeft></bootcampLeft>
+          <bootcampRight></bootcampRight>
+        </div>
+      </div>
+      <!-- 每日推荐 -->
+      <div class="core-block">
+        <div class="module">
+          <everyLearn></everyLearn>
+          <everyadvice></everyadvice>
+        </div>
+      </div>
+      <!-- 大厂案例 -->
+      <div class="core-block">
+        <div class="module">
+          <case></case>
+        </div>
+      </div>
+      <!-- 公开课-->
+      <div class="core-block">
+        <div class="module">
+          <openClass></openClass>
+        </div>
+      </div>
+      <!--为你推荐 -->
+      <div class="core-block">
+        <div class="module">
+          <suggest></suggest>
+        </div>
+      </div>
+      <!--更多活动 -->
+      <div class="core-block">
+        <div class="module">
+          <mulactivity></mulactivity>
+        </div>
+      </div>
+      <!--右侧菜单  -->
+      <rightMenu></rightMenu>
     </div>
 
+    <!-- 尾部 -->
+    <footerEl></footerEl>
   </div>
 </template>
 
@@ -226,7 +272,20 @@
       // 'carousel': () => import('../components/carousel.vue'),
       'carousel1': () => import('../components/carousel1.vue'),
       'carousel2': () => import('../components/carousel2.vue'),
-      
+      'live': () => import('../components/live.vue'),
+      'infoPack': () => import('../components/infoPack.vue'),
+      'courseLeft': () => import('../components/courseLeft.vue'),
+      'courseRight': () => import('../components/courseRight.vue'),
+      'bootcampLeft': () => import('../components/bootcampLeft.vue'),
+      'bootcampRight': () => import('../components/bootcampRight.vue'),
+      'everyLearn': () => import('../components/everyLearn.vue'),
+      'everyadvice': () => import('../components/everyadvice.vue'),
+      'case': () => import('../components/case.vue'),
+      'openClass': () => import('../components/openClass.vue'),
+      'suggest': () => import('../components/suggest.vue'),
+      'mulactivity': () => import('../components/mulactivity.vue'),
+      'footerEl': () => import('../components/footerEl.vue'),
+      'rightMenu': () => import('../components/rightMenu.vue'),
     }
   }
 </script>
@@ -578,6 +637,12 @@
 }
 
 .core-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.module {
+  margin-top: 71px;
   display: flex;
   justify-content: space-between;
 }
