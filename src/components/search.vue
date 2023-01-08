@@ -47,7 +47,6 @@
     watch: {
       value: function(){
         getSearch({inputValue: this.value}).then(res => {
-          console.log('1',res)
           if(res.data){
             this.items = res.data.lists;
             //判断现在是否聚焦
